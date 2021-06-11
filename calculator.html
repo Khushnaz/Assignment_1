@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gpa Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="temp">  
+<h1 style="margin-left: 20px;">Grade Calculator</h1>  
+<main class="demo">
+<h2>Activities</h2>
+  <div>Give grades to numeric activities</div>
+  <table>
+      <tr>
+      <th>Name</th>
+      <th>Short Name</th>
+      <th>Weight</th>
+      <th>Grade</th>
+      <th>Percentage</th>
+    </tr>
+    <tr>
+        <td>Activity 1</td>
+        <td>A1</td>
+        <td><form action="/tacos">
+            <input type="number" value="0"  id="w1">
+        </form>
+    </td>
+    <td><form action="/weight">
+        <input type="number" value="0" onkeydown="toPercentage()" onkeyup="toPercentage()" id="m1">/
+    </form> <form action="/weight1">
+    <input type="number" value="0" onkeydown="toPercentage()" onkeyup="toPercentage()" id="m2">
+    </form>
+    </td>
+    <td  id='percentOne'></td>
+    </tr>
+    <tr>
+        <td>Activity 2</td>
+        <td>A2</td>
+        <td><form action="/tacos">
+            <input type="number" value="0" id="w2">
+        </form>
+    </td>
+    <td><form action="/weight">
+        <input type="number" value="0" onkeydown="toPercentage()" onkeyup="toPercentage()" id="m3">/
+    </form> <form action="/weight1">
+    <input type="number" value="0" onkeydown="toPercentage()" onkeyup="toPercentage()" id="m4">
+    </td>
+    <td id='percentTwo'> </td>
+    </tr>
+    <tr>
+        <td>Activity 3</td>
+        <td>A3</td>
+        <td><form action="/tacos">
+            <input type="number" value="0" id="w3">
+        </form>
+    </td>
+    <td><form action="/weight">
+        <input type="number" value="0" onkeydown="toPercentage()" onkeyup="toPercentage()" id="m5">/
+    </form> <form action="/weight1">
+    <input type="number" value="0"  onkeydown="toPercentage()" onkeyup="toPercentage()" id="m6">
+    </form>
+    </td>
+    <td><p id="percentThree"></p> </td>
+    </tr>
+    <tr>
+        <td>Activity 4</td>
+        <td>A4</td>
+        <td><form action="/tacos">
+            <input type="number" value="0" id="w4">
+        </form>
+    </td>
+    <td><form action="/weight">
+        <input type="number" value="0"  onkeydown="toPercentage()" onkeyup="toPercentage()" id="m7">
+    </form> <form action="/weight1">
+    <input type="number" value="0" onkeydown="toPercentage()" onkeyup="toPercentage()" id="m8">
+    </form>
+    </td>
+    <td id='percentFour'></td>
+    
+    </tr>
+
+    </table>
+    <div style="color:rgb(204, 13, 13);font-weight:bold;">
+        <p id= "finalResult">Result:</p>
+    </div>
+    <div style="width:auto;">
+    <button onclick="calcWeight()" style="margin-left: 700px;">Weighted</button>
+    <button onclick="calcMean()">Mean</button>
+</div>
+</main>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>

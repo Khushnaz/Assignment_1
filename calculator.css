@@ -1,0 +1,62 @@
+h2{
+    color:rgb(204, 13, 13);
+}
+table,tr,td,th{
+    border: 1px solid grey;
+  border-collapse: collapse;
+}
+input[type="number"]{
+    width:60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: px;
+    margin-right:2px;
+}
+th{
+    margin-top:2px;
+    margin-bottom:2px;
+    background-color:#d9d9d9;
+   
+}
+td {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left:5px;
+    width:140px;
+}
+button{
+    background-color:rgb(204, 13, 13);
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+table{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 9px;
+    
+}
+body{
+    background-color: darkred;
+    margin-top: 0px;
+}
+.demo{
+    background-color: #e0e6ec;
+    width: 70%;
+    padding-bottom: 20px;
+    padding-left:15px;
+    margin-left: 20px;
+}
+.temp{
+    background-color: white;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-top: 20px solid #221F1F;
+    padding-bottom: 20px;
+    border-bottom: 35px solid #221F1F;
+}
+
